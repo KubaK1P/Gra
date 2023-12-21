@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Gra</title>
+     <style>
+          body {
+               display: flex;
+               justify-content: center;
+          }
+     
+          .container {
+               flex-basis: 60%;
+          }
+     </style>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+          <header>
+               <h1>Gra</h1>
+          </header>
+          <main>
+               <header>
+                    <h2>Tutaj klikasz</h2>
+               </header>
+               <div class="mainRow">
+                    <button id="mainButton" class="button-19">
+                         Kliknij
+                    </button>
+                    <span id="mainDisplay" class="mainDisplay">0</span>
+               </div>
+               <div class="mainRow" id="gold">
+                    
+               </div>
+               <div class="mainRow" id="platinum">
+
+               </div>
+          </main>
+          <aside>
+               <div class="asideRow">
+                    <header>
+                         <h2>Tutaj ulepszasz</h2>
+                    </header>
+                    <button class="button-19" id="upgradeTier1">Ulepszenie, koszt: <span id="upgradeTier1Cost"></span></button>
+                    <button class="button-19">Ulepszenie ulepszenia, koszt: <span id="upgradeTier1Cost"></span></button>
+                    <button class="button-19"> mama</button>
+               </div>
+          </aside>
+     </div>
+     <script src="main.js"></script>
+</body>
+</html>
